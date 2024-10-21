@@ -206,7 +206,8 @@ In case where Freeway doesn't meet the expectations and was installed via pip, t
 <h2>Known Issues</h2>
 
 > 1. Android filters out fake beacon frames (works for Android 5, doesn't on Android 11+, versions below Android 11  and above Android 5 were not tested.)
-> 2. EvilTwin needs a second adapter connected to the internet (not really an issue), to be able to reroute traffic 
+> 2. EvilTwin needs a second adapter connected to the internet (not really an issue), to be able to reroute traffic
+> 3. The very first run of the EvilTwin may not succeed if dnsmasq wasn't ever ran on the machine, run EvilTwin twice, or install and run dnsmasq before.
 
 <h2><strong>Legal Note</strong></h2>
 
